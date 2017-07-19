@@ -12,7 +12,7 @@ Programme basé sur MoppyDesk mais en français
             
             
             
-# **Traduction en français :**
+### **Traduction en français :**
 
 Moppy est un programme de contrôleur de disquette conçu pour l'Arduino Uno.
 
