@@ -9,6 +9,9 @@ Programme basé sur MoppyDesk mais en français
             /_/   /_/    /____/                                                   v2 </pre>
             
             
+            
+            
+            
 # **Traduction en français :**
 
 Moppy est un programme de contrôleur de disquette conçu pour l'Arduino Uno.
@@ -56,7 +59,8 @@ Généralement, les notes plus courtes ont tendance à mieux ressentir, car des 
 Croisez les doigts et profitez-en!
 
 *======================================================================*
-
+![alt text](https://stoneset.github.io/images/floppymusicprogramm.jpg "Screenshot du programme")
+*======================================================================*
 # **Autres :**
 
 __License :__
