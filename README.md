@@ -1,27 +1,27 @@
 # FloppyMusic
 Programme basé sur MoppyDesk mais en français
-
+<pre>
     __  ___                        ___       __                                __
    /  |/  /___  ____  ____  __  __/   | ____/ /   ______ _____  ________  ____/ /
   / /|_/ / __ \/ __ \/ __ \/ / / / /| |/ __  / | / / __ `/ __ \/ ___/ _ \/ __  / 
  / /  / / /_/ / /_/ / /_/ / /_/ / ___ / /_/ /| |/ / /_/ / / / / /__/  __/ /_/ /  
 /_/  /_/\____/ .___/ .___/\__, /_/  |_\__,_/ |___/\__,_/_/ /_/\___/\___/\__,_/   
-            /_/   /_/    /____/                                                   v2
+            /_/   /_/    /____/                                                   v2 </pre>
             
             
-**Traduction en français :**
+# **Traduction en français :**
 
 Moppy est un programme de contrôleur de disquette conçu pour l'Arduino Uno.
 
 Cette version tente d'améliorer le Moppy original en ajoutant des fonctionnalités supplémentaires, y compris:
 
-*Support MIDI-IN
-*Contrôle de sortie par canal
-*Prise en charge de plusieurs périphériques Arduinos / MIDI
-*Drive pooling
-*Ce document est censé être une sorte de guide de démarrage rapide. Vous pouvez trouver un guide de FAQ et de dépannage sur Wiki.
+    * Support MIDI-IN
+    * Contrôle de sortie par canal
+    * Prise en charge de plusieurs périphériques Arduinos / MIDI
+    * Drive pooling
+    * Ce document est censé être une sorte de guide de démarrage rapide. Wiki : (Repo de MoppyAdvanced)
 
-*Installation*
+__Installation__
 
 Le code Arduino requiert la bibliothèque TimerOne disponible ici: http://www.arduino.cc/playground/Code/Timer1
 
@@ -29,7 +29,7 @@ La dernière version utilise NRJavaSerial, qui devrait inclure des lecteurs nati
 
 Chargez le code Arduino fourni à l'Arduino de votre choix (nécessite l'IDE Arduino) et ouvrez le code Java inclus dans votre IDE préféré. Ce code comprend un projet NetBeans pour votre commodité, de sorte que vous devriez pouvoir ouvrir le projet directement dans NetBeans.
 
-*Matériel*
+__Matériel__
 
 J'ai codé Moppy en utilisant un Arduino Uno, mais cela devrait fonctionner très bien sur la plupart des Arduinos. Les broches sont reliées par paires aux lecteurs de disquettes comme suit: les broches individuelles (2,4,6 ...) sont connectées à la broche STEP de chaque lecteur, les broches binaires correspondantes (3,5,7 ...) sont connectées au La broche de commande DIRECTION de chaque lecteur. Donc, la première disquette serait connectée à la broche 2 et 3, la deuxième disquette à 4 et 5, et ainsi de suite.
 
@@ -39,7 +39,7 @@ Assurez-vous de mettre à la terre la broche de sélection de lecteur correcte, 
 
 En outre, il est TRÈS IMPORTANT que votre Arduino soit mis à la terre avec les lecteurs, ou les lecteurs ne enregistrent pas les impulsions correctement. Pour ce faire, assurez-vous que la broche GND sur l'Arduino est connectée à la broche impaire située au-dessous de la broche STEP sur la disquette (c'est-à-dire si la broche STEP est 20, connectez la broche GND d'Audnio à la broche 19). Vous devrez peut-être le faire pour la broche DIRECTION (je l'ai fait pour les deux, mais je ne sais pas si c'est nécessaire).
 
-*Configuration et utilisation*
+__Configuration et utilisation__
 
 Ouvrez le code dans NetBeans (ou votre IDE préféré) et exécutez-le. Vous pouvez également créer le fichier MoppyDesk.jar et l'exécuter directement.
 Sur la moitié droite de l'écran, vérifiez les cases de sortie du canal pour le nombre de lecteurs que vous avez connecté, sélectionnez "Moppy" et choisissez le port COM auquel votre Arduino est connecté.
@@ -57,14 +57,18 @@ Croisez les doigts et profitez-en!
 
 *======================================================================*
 
-*License :*
+# **Autres :**
+
+__License :__
 Rien, respecté la license de MoppyDesk par contre... ;)
 
-*Source*
+__Source__
 heu, je cherches toujours...
 
-*Copyright :*
+__Copyright :__
 
 StoneSet & Sammy
+
+~-~
 
 Repo officiel : https://github.com/SammyIAm/Moppy
