@@ -16,13 +16,14 @@ Programme basé sur MoppyDesk mais en français
 
 Moppy est un programme de contrôleur de disquette conçu pour l'Arduino Uno.
 
-Cette version tente d'améliorer le Moppy original en ajoutant des fonctionnalités supplémentaires, y compris:
+Cette version tente d'améliorer le MoppyDesk original en ajoutant des fonctionnalités supplémentaires, y compris:
 
     * Support MIDI-IN
     * Contrôle de sortie par canal
     * Prise en charge de plusieurs périphériques Arduinos / MIDI
     * Drive pooling
     * Ce document est censé être une sorte de guide de démarrage rapide. Wiki : (Repo de MoppyAdvanced)
+    * Le français
 
 __Installation__
 
@@ -64,7 +65,7 @@ Croisez les doigts et profitez-en!
 # **Autres :**
 
 __License :__
-Rien, respecté la license de MoppyDesk par contre... ;)
+Rien, respectez juste la license de MoppyDesk par contre... ;)
 
 __Source__
 heu, je cherches toujours...
