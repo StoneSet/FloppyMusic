@@ -68,7 +68,7 @@ __License :__
 Rien, respectez juste la license de MoppyDesk par contre... ;)
 
 __Source__
-heu, je cherches toujours...
+Disponible ici :https://github.com/StoneSet/FloppyMusic/tree/master/Java
 
 __Copyright :__
 
