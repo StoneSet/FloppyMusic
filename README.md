@@ -60,7 +60,7 @@ Généralement, les notes plus courtes ont tendance à mieux ressentir, car des 
 Croisez les doigts et profitez-en!
 
 *======================================================================*
-![alt text](https://stoneset.github.io/images/floppymusicprogramm.jpg "Screenshot du programme")
+![alt text](https://stoneset.fr/images/floppymusicprogramm.jpg "Screenshot du programme")
 *======================================================================*
 # **Autres :**
 
